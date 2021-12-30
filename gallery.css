@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(rgb(220, 220, 243),rgb(238, 238, 241),rgb(81, 81, 194)) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.imgclass{
+    width:33%;
+    
+    opacity: 0.75;
+    transition: 1s ease;
+    border: 4px dotted black;
+    
+}
+.imgclass:hover{
+    opacity: 1.0;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    border: 4px dotted black;
+}
+.parent1{
+    display: flex;
+    flex:1;
+    border: 4px dotted black;
+}
